@@ -9,6 +9,9 @@ public class groundCheck : MonoBehaviour
     public Transform groundCheckPoint;
     public float checkRadius = 0.2f;
     public LayerMask groundLayer;
+    public AudioClip Jump;
+    AudioSource PlayerSFX;
+
 
     private Rigidbody2D rb;
     private bool isGrounded;
@@ -17,6 +20,7 @@ public class groundCheck : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        PlayerSFX = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -28,6 +32,7 @@ public class groundCheck : MonoBehaviour
 
         if (isGrounded && Input.GetKeyDown(KeyCode.Space))
         {
+            PlayerSFX.PlayOneShot(Jump);
             jump();
         }
     }
@@ -36,6 +41,8 @@ public class groundCheck : MonoBehaviour
     private void jump()
 
     {
+
+
         rb.velocity = new Vector2(rb.velocity.x, jumpForce);
     }
 
