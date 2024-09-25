@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: cac14f38718a1704d9faeebe848b9a74
+guid: 4ca25768ce31473479ed4225143c1e7a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -147,7 +147,154 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: jumpingBoi_0
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 487
+        width: 210
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af4fef9df972e7048bdae05d3eaacb92
+      internalID: -39805474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumpingBoi_1
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 491
+        width: 238
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a78ab37dc761034da2e8e5ebbbbab17
+      internalID: -764390806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumpingBoi_2
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 491
+        width: 176
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5dfeed09f52f1d4792a70efe644dd85
+      internalID: 1072860790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumpingBoi_3
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 549
+        width: 182
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d1b65caed4bfa34da2026683f22dd34
+      internalID: -1060935660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumpingBoi_4
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 509
+        width: 212
+        height: 361
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d5ee18a3dceeae4096c504ddf707cbb
+      internalID: 902926978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumpingBoi_5
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 510
+        width: 211
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7137d53b03d5b96419d5cd904c055217
+      internalID: -1300976206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumpingBoi_6
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 491
+        width: 223
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04042ba64c468af4f8f78219b9ecfa29
+      internalID: -779854364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -158,7 +305,14 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      jumpingBoi_0: -39805474
+      jumpingBoi_1: -764390806
+      jumpingBoi_2: 1072860790
+      jumpingBoi_3: -1060935660
+      jumpingBoi_4: 902926978
+      jumpingBoi_5: -1300976206
+      jumpingBoi_6: -779854364
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

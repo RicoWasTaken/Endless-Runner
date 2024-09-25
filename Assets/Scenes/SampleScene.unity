@@ -1555,6 +1555,7 @@ GameObject:
   - component: {fileID: 2058153709}
   - component: {fileID: 2058153713}
   - component: {fileID: 2058153714}
+  - component: {fileID: 2058153715}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1594,18 +1595,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.008828759, y: 0.02784115}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 2.3508928, y: 3.6100001}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 2.4658492, y: 3.6287627}
   m_EdgeRadius: 0
 --- !u!50 &2058153710
 Rigidbody2D:
@@ -1622,7 +1623,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 14
+  m_GravityScale: 10
   m_Material: {fileID: 6200000, guid: 6d28819f8b76db140aee43b5277daeaf, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
@@ -1675,8 +1676,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: f362e3452e26e4d449795903d6b81746, type: 3}
-  m_Color: {r: 0.48713955, g: 0.8396226, b: 0.7728703, a: 1}
+  m_Sprite: {fileID: -2045290684, guid: cac14f38718a1704d9faeebe848b9a74, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1695,8 +1696,8 @@ Transform:
   m_GameObject: {fileID: 2058153707}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.46, y: 0.59, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -9.6468, y: -2.49, z: 0}
+  m_LocalScale: {x: 0.37419078, y: 0.37419078, z: 0.37419078}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1714,7 +1715,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 15
-  jumpForce: 40
+  jumpForce: 35
   groundCheckPoint: {fileID: 2058153712}
   checkRadius: 0.75
   groundLayer:
@@ -1817,6 +1818,27 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!95 &2058153715
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2058153707}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a15a57bd1e6c5a6498254fc1b93ddedb, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

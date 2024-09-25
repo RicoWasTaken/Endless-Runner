@@ -16,11 +16,15 @@ public class groundCheck : MonoBehaviour
     private Rigidbody2D rb;
     private bool isGrounded;
 
+    Animator anim;
+
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         PlayerSFX = GetComponent<AudioSource>();
+
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -35,6 +39,7 @@ public class groundCheck : MonoBehaviour
             PlayerSFX.PlayOneShot(Jump);
             jump();
         }
+        anim.SetBool("isGrounded", isGrounded);
     }
 
 
