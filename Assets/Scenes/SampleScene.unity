@@ -154,8 +154,7 @@ MonoBehaviour:
   objectsToSpawn:
   - {fileID: 7262506279313507657, guid: 5c3d5632890f3474994d0b1ff7ad7294, type: 3}
   - {fileID: 5048303809267252825, guid: 764121d59ee39c84598b495b92c33756, type: 3}
-  - {fileID: 8217479689283803166, guid: 4559b7669d1b89d4fa9c81bfbea1cd18, type: 3}
-  minSpawnTime: 0.5
+  minSpawnTime: 0.4
   maxSpawnTime: 1
 --- !u!4 &64416582
 Transform:
@@ -166,7 +165,7 @@ Transform:
   m_GameObject: {fileID: 64416580}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 15, y: -4, z: 9.938545}
+  m_LocalPosition: {x: 15, y: -7, z: 8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -336,7 +335,7 @@ Transform:
   m_GameObject: {fileID: 275023625}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 15, y: 1, z: 9.938545}
+  m_LocalPosition: {x: 15, y: -2, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1415,7 +1414,7 @@ Transform:
   m_GameObject: {fileID: 2009029778}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 15, y: -1.5, z: 9.938545}
+  m_LocalPosition: {x: 15, y: -4.5, z: 9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1623,7 +1622,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 10
+  m_GravityScale: 15
   m_Material: {fileID: 6200000, guid: 6d28819f8b76db140aee43b5277daeaf, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
@@ -1715,7 +1714,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 15
-  jumpForce: 35
+  jumpForce: 40
   groundCheckPoint: {fileID: 2058153712}
   checkRadius: 0.75
   groundLayer:
