@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 5378112288029243475}
   - component: {fileID: 149517837017694312}
   - component: {fileID: 7411847765497095981}
+  - component: {fileID: 7639721256207168296}
   m_Layer: 3
-  m_Name: LargePlatform
+  m_Name: LargePlatform 1
   m_TagString: CleanUp
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -130,3 +131,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 7.584297, y: 0.36595726}
   m_EdgeRadius: 0
+--- !u!114 &7639721256207168296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7262506279313507657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5738f133cd4e52439a192de8a6765d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lampPrefab: {fileID: 0}
+  coinOffset: {x: 0, y: 1}
