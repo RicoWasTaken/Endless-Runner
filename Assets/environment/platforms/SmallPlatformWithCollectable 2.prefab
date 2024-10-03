@@ -144,7 +144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5738f133cd4e52439a192de8a6765d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lampPrefab: {fileID: 0}
+  lampPrefab: {fileID: 2199135069567098475, guid: fd9c9613203bc8c42a645311e0b5f207, type: 3}
   coinOffset: {x: 0, y: 1}
 --- !u!1001 &5645588297161557073
 PrefabInstance:
