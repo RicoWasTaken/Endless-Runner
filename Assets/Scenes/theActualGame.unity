@@ -156,7 +156,7 @@ MonoBehaviour:
   - {fileID: 7262506279313507657, guid: e995061644c7252469d11fc0571dd7ce, type: 3}
   - {fileID: 7262506279313507657, guid: e995061644c7252469d11fc0571dd7ce, type: 3}
   minSpawnTime: 0.8
-  maxSpawnTime: 1
+  maxSpawnTime: 1.5
 --- !u!4 &64416582
 Transform:
   m_ObjectHideFlags: 0
@@ -1392,7 +1392,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 547353222}
         m_TargetAssemblyTypeName: DeathManager, Assembly-CSharp
         m_MethodName: QuitGame
         m_Mode: 1
@@ -1894,7 +1894,7 @@ MonoBehaviour:
   - {fileID: 8217479689283803166, guid: 4559b7669d1b89d4fa9c81bfbea1cd18, type: 3}
   - {fileID: 7262506279313507657, guid: e995061644c7252469d11fc0571dd7ce, type: 3}
   - {fileID: 8217479689283803166, guid: e615570d1d15b8b48b5fbc95cd38ed6a, type: 3}
-  minSpawnTime: 0.5
+  minSpawnTime: 1
   maxSpawnTime: 2.5
 --- !u!4 &2009029780
 Transform:
